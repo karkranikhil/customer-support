@@ -9,8 +9,12 @@ function Form() {
             action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
             method="POST"
           >
-            <input type="hidden" name="orgid" value="00D0o000000SnEj" />
-            <input type="hidden" name="retURL" value="http://localhost:3000/" />
+            <input type="hidden" name="orgid" value="00D2w000004NWpe" />
+            <input
+              type="hidden"
+              name="retURL"
+              value="https://customer-support.karkranikhil.now.sh/submission"
+            />
             <h2>Submit Your Query</h2>
             <div className="form-group">
               <label htmlFor="name">Name:</label>
@@ -35,6 +39,21 @@ function Form() {
                 className="form-control"
                 placeholder="Enter email"
               />
+            </div>
+            <div class="form-group">
+              <label for="00N2w000005E6VM">Liner brand:</label>
+              <select
+                class="form-control"
+                id="00N2w000005E6VM"
+                name="00N2w000005E6VM"
+                title="Liner brand"
+              >
+                <option value="Retail" selected>
+                  Retail
+                </option>
+                <option value="Liquor">Liquor</option>
+                <option value="Wholesale">Wholesale</option>
+              </select>
             </div>
             <div className="form-group">
               <label htmlFor="subject">Subject:</label>

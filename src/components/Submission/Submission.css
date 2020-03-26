@@ -1,0 +1,34 @@
+.box{
+    border: 1px solid #65d6d1;
+    border-radius: 5px;
+    padding: 1rem;
+    background: white;
+    box-shadow: 1px 0px 5px #65d6d1;
+}
+.tick-logo{
+    height: 70px;
+    width: 70px;
+    margin-right: 1rem;
+}
+a.btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+  color: #fff;
+}
+.button-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+}
+a.btn-home{
+    background: #069290 !important;
+}

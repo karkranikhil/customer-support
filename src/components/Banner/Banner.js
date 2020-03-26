@@ -1,7 +1,8 @@
 import React from "react";
 import "./Banner.css";
 import ICON from "../../assets/images/intro-img.svg";
-function Banner({ getStartedHandler }) {
+import { Link } from "react-router-dom";
+function Banner() {
   return (
     <section id="hero" className="clearfix">
       <div className="container d-flex h-100">
@@ -13,12 +14,12 @@ function Banner({ getStartedHandler }) {
               for Your <span>Queries!</span>
             </h2>
             <div className="mobile-center">
-              <button
+              <Link
                 className="btn btn-get-started scrollto"
-                onClick={getStartedHandler}
+                to="/form"
               >
                 Get Started
-              </button>
+              </Link>
             </div>
           </div>
 
